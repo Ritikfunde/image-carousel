@@ -1,0 +1,17 @@
+.carousel {
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-items {
+    display: flex;
+    transition: transform 0.2s ease;
+
+.carousel-item {
+    min-width: 100%;
+}
+
+.carousel-item img {
+    width: 100%; 
+    height: auto;
+}
